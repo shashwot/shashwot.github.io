@@ -1,0 +1,9 @@
+# macOS-specific files
+.DS_Store
+
+# local folders
+.history
+
+# Logs
+*.log*
+
