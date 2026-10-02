@@ -1,0 +1,1 @@
+var e=window.matchMedia(`(prefers-color-scheme: dark)`);function t(){let t=document.documentElement.dataset.theme;return t===`light`||t===`dark`?t:e.matches?`dark`:`light`}function n(){let e=t()===`dark`?`light`:`dark`;document.documentElement.dataset.theme=e;try{localStorage.setItem(`theme`,e)}catch{}window.dispatchEvent(new CustomEvent(`themechange`,{detail:e}))}export{n,t};

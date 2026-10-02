@@ -1,0 +1,1 @@
+import{n as e,t}from"./theme.3r51wjEe.js";var n=document.getElementById(`theme-toggle`),r=()=>{let e=t()===`dark`?`light`:`dark`;n?.setAttribute(`aria-label`,`Switch to ${e} theme`)};n?.addEventListener(`click`,e),window.addEventListener(`themechange`,r),window.matchMedia(`(prefers-color-scheme: dark)`).addEventListener(`change`,r),r();
